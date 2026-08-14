@@ -1,0 +1,206 @@
+order_id,customer_name,email,order_date,amount,status,region
+1001,,CUST0@EXAMPLE.COM ,2024-01-01,,completed,US
+1002,Customer 1,cust1@example.com,2024-01-02,193.52,Completed,us
+1003,Customer 2,cust2@example.com,2024-01-03,475.85,,US
+1004,Customer 3,cust3@example.com,2024-01-04,368.68,Completed,APAC
+1005,Customer 4,cust4@example.com,2024-01-05,303.34,PENDING,APAC
+1006,Customer 5,cust5@example.com,2024-01-06,86.45,pending,US
+1007,Customer 6,cust6@example.com,2024-01-07,86.44,Completed,APAC
+1008,Customer 7,cust7@example.com,2024-01-08,38.46,completed,APAC
+1009,Customer 8,cust8@example.com,2024-01-09,434.43,pending,APAC
+1010,Customer 9,cust9@example.com,2024-01-10,304.55,pending,EU
+1011,Customer 10,cust10@example.com,2024-01-11,356.96,completed,eu 
+1012,Customer 11,cust11@example.com,2024-01-12,,Completed,us
+1013,Customer 12,cust12@example.com,2024-01-13,20.09,completed,EU
+1014,Customer 13,CUST13@EXAMPLE.COM ,2024-01-14,485.26,,APAC
+1015,Customer 14,cust14@example.com,2024-01-15,417.9,pending,US
+1016,Customer 15,cust15@example.com,2024-01-16,114.05,cancelled,APAC
+1017,Customer 16,cust16@example.com,2024-01-17,99.09,cancelled,eu 
+1018,,cust17@example.com,2024-01-18,99.87,PENDING,APAC
+1019,Customer 18,cust18@example.com,2024-01-19,159.08,completed,US
+1020,Customer 19,cust19@example.com,2024-01-20,267.13,completed,eu 
+1021,Customer 20,cust20@example.com,2024-01-21,221.65,PENDING,APAC
+1022,Customer 21,cust21@example.com,2024-01-22,152.7,PENDING,eu 
+1023,Customer 22,cust22@example.com,2024-01-23,,PENDING,us
+1024,Customer 23,cust23@example.com,2024-01-24,309.81,pending,us
+1025,Customer 24,cust24@example.com,2024-01-25,78.35,,APAC
+1026,Customer 25,cust25@example.com,2024-01-26,153.15,completed,eu 
+1027,Customer 26,CUST26@EXAMPLE.COM ,2024-01-27,189.52,pending,US
+1028,Customer 27,cust27@example.com,2024-01-28,233.47,PENDING,APAC
+1029,Customer 28,cust28@example.com,2024-01-29,394.74,completed,us
+1030,Customer 29,cust29@example.com,2024-01-30,107.84,pending,us
+1031,Customer 30,cust30@example.com,2024-01-31,261.97,,APAC
+1032,Customer 31,cust31@example.com,2024-02-01,300.28,pending,eu 
+1033,Customer 32,cust32@example.com,2024-02-02,32.76,,us
+1034,Customer 33,cust33@example.com,2024-02-03,,PENDING,eu 
+1035,,cust34@example.com,2024-02-04,307.7,,us
+1036,Customer 35,cust35@example.com,2024-02-05,93.56,completed,us
+1037,Customer 36,cust36@example.com,2024-02-06,41.88,PENDING,EU
+1038,Customer 37,cust37@example.com,2024-02-07,474.95,completed,us
+1039,Customer 38,cust38@example.com,2024-02-08,483.16,cancelled,US
+1040,Customer 39,CUST39@EXAMPLE.COM ,2024-02-09,406.11,Completed,APAC
+1041,Customer 40,cust40@example.com,2024-02-10,159.26,,APAC
+1042,Customer 41,cust41@example.com,2024-02-11,57.86,Completed,eu 
+1043,Customer 42,cust42@example.com,2024-02-12,345.27,Completed,us
+1044,Customer 43,cust43@example.com,2024-02-13,225.67,,US
+1045,Customer 44,cust44@example.com,2024-02-14,,PENDING,eu 
+1046,Customer 45,cust45@example.com,2024-02-15,69.8,cancelled,EU
+1047,Customer 46,cust46@example.com,2024-02-16,252.64,completed,eu 
+1048,Customer 47,cust47@example.com,2024-02-17,26.85,pending,eu 
+1049,Customer 48,cust48@example.com,2024-02-18,455.57,completed,us
+1050,Customer 49,cust49@example.com,2024-02-19,136.8,pending,EU
+1051,Customer 50,cust50@example.com,2024-02-20,334.64,completed,eu 
+1052,,cust51@example.com,2024-02-21,162.74,,US
+1053,Customer 52,CUST52@EXAMPLE.COM ,2024-02-22,264.83,cancelled,US
+1054,Customer 53,cust53@example.com,2024-02-23,277.89,pending,APAC
+1055,Customer 54,cust54@example.com,2024-02-24,100.58,PENDING,EU
+1056,Customer 55,cust55@example.com,2024-02-25,,completed,EU
+1057,Customer 56,cust56@example.com,2024-02-26,485.1,completed,APAC
+1058,Customer 57,cust57@example.com,2024-02-27,389.82,pending,eu 
+1059,Customer 58,cust58@example.com,2024-02-28,470.35,PENDING,EU
+1060,Customer 59,cust59@example.com,2024-02-29,448.47,PENDING,US
+1061,Customer 60,cust60@example.com,2024-03-01,302.97,,US
+1062,Customer 61,cust61@example.com,2024-03-02,461.72,,us
+1063,Customer 62,cust62@example.com,2024-03-03,53.36,,EU
+1064,Customer 63,cust63@example.com,2024-03-04,106.03,,eu 
+1065,Customer 64,cust64@example.com,2024-03-05,32.16,,APAC
+1066,Customer 65,CUST65@EXAMPLE.COM ,2024-03-06,169.41,,APAC
+1067,Customer 66,cust66@example.com,2024-03-07,,cancelled,eu 
+1068,Customer 67,cust67@example.com,2024-03-08,200.45,PENDING,us
+1069,,cust68@example.com,2024-03-09,142.96,,APAC
+1070,Customer 69,cust69@example.com,2024-03-10,416.08,PENDING,EU
+1071,Customer 70,cust70@example.com,2024-03-11,184.81,PENDING,us
+1072,Customer 71,cust71@example.com,2024-03-12,147.66,Completed,EU
+1073,Customer 72,cust72@example.com,2024-03-13,275.92,cancelled,US
+1074,Customer 73,cust73@example.com,2024-03-14,79.05,,us
+1075,Customer 74,cust74@example.com,2024-03-15,403.08,completed,APAC
+1076,Customer 75,cust75@example.com,2024-03-16,46.53,pending,us
+1077,Customer 76,cust76@example.com,2024-03-17,493.57,completed,us
+1078,Customer 77,cust77@example.com,2024-03-18,,cancelled,us
+1079,Customer 78,CUST78@EXAMPLE.COM ,2024-03-19,388.4,pending,us
+1080,Customer 79,cust79@example.com,2024-03-20,107.37,cancelled,EU
+1081,Customer 80,cust80@example.com,2024-03-21,12.71,PENDING,US
+1082,Customer 81,cust81@example.com,2024-03-22,409.58,pending,eu 
+1083,Customer 82,cust82@example.com,2024-03-23,356.36,PENDING,us
+1084,Customer 83,cust83@example.com,2024-03-24,367.21,completed,APAC
+1085,Customer 84,cust84@example.com,2024-03-25,387.92,completed,us
+1086,,cust85@example.com,2024-03-26,46.28,pending,APAC
+1087,Customer 86,cust86@example.com,2024-03-27,185.65,pending,EU
+1088,Customer 87,cust87@example.com,2024-03-28,66.78,,APAC
+1089,Customer 88,cust88@example.com,2024-03-29,,cancelled,eu 
+1090,Customer 89,cust89@example.com,2024-03-30,432.92,,US
+1091,Customer 90,cust90@example.com,2024-03-31,315.42,cancelled,APAC
+1092,Customer 91,CUST91@EXAMPLE.COM ,2024-04-01,172.14,,APAC
+1093,Customer 92,cust92@example.com,2024-04-02,41.14,PENDING,US
+1094,Customer 93,cust93@example.com,2024-04-03,162.38,pending,eu 
+1095,Customer 94,cust94@example.com,2024-04-04,169.34,completed,us
+1096,Customer 95,cust95@example.com,2024-04-05,367.51,cancelled,APAC
+1097,Customer 96,cust96@example.com,2024-04-06,322.4,cancelled,US
+1098,Customer 97,cust97@example.com,2024-04-07,444.73,completed,EU
+1099,Customer 98,cust98@example.com,2024-04-08,241.39,,US
+1100,Customer 99,cust99@example.com,2024-04-09,,cancelled,EU
+1101,Customer 100,cust100@example.com,2024-04-10,68.6,PENDING,eu 
+1102,Customer 101,cust101@example.com,2024-04-11,359.49,pending,us
+1103,,cust102@example.com,2024-04-12,382.78,completed,US
+1104,Customer 103,cust103@example.com,2024-04-13,285.03,pending,APAC
+1105,Customer 104,CUST104@EXAMPLE.COM ,2024-04-14,387.77,cancelled,eu 
+1106,Customer 105,cust105@example.com,2024-04-15,251.96,cancelled,US
+1107,Customer 106,cust106@example.com,2024-04-16,266.14,completed,APAC
+1108,Customer 107,cust107@example.com,2024-04-17,219.5,PENDING,US
+1109,Customer 108,cust108@example.com,2024-04-18,22.46,Completed,EU
+1110,Customer 109,cust109@example.com,2024-04-19,62.87,completed,US
+1111,Customer 110,cust110@example.com,2024-04-20,,Completed,US
+1112,Customer 111,cust111@example.com,2024-04-21,25.4,,US
+1113,Customer 112,cust112@example.com,2024-04-22,321.84,Completed,eu 
+1114,Customer 113,cust113@example.com,2024-04-23,164.03,PENDING,US
+1115,Customer 114,cust114@example.com,2024-04-24,259.2,,APAC
+1116,Customer 115,cust115@example.com,2024-04-25,454.71,Completed,EU
+1117,Customer 116,cust116@example.com,2024-04-26,132.15,,EU
+1118,Customer 117,CUST117@EXAMPLE.COM ,2024-04-27,211.09,Completed,US
+1119,Customer 118,cust118@example.com,2024-04-28,380.22,PENDING,eu 
+1120,,cust119@example.com,2024-04-29,122.11,Completed,eu 
+1121,Customer 120,cust120@example.com,2024-04-30,47.72,Completed,APAC
+1122,Customer 121,cust121@example.com,2024-05-01,,Completed,US
+1123,Customer 122,cust122@example.com,2024-05-02,151.98,completed,EU
+1124,Customer 123,cust123@example.com,2024-05-03,89.0,completed,eu 
+1125,Customer 124,cust124@example.com,2024-05-04,465.55,completed,US
+1126,Customer 125,cust125@example.com,2024-05-05,405.98,PENDING,eu 
+1127,Customer 126,cust126@example.com,2024-05-06,320.37,,eu 
+1128,Customer 127,cust127@example.com,2024-05-07,437.02,cancelled,EU
+1129,Customer 128,cust128@example.com,2024-05-08,403.8,Completed,us
+1130,Customer 129,cust129@example.com,2024-05-09,101.42,Completed,APAC
+1131,Customer 130,CUST130@EXAMPLE.COM ,2024-05-10,447.35,PENDING,APAC
+1132,Customer 131,cust131@example.com,2024-05-11,274.28,Completed,EU
+1133,Customer 132,cust132@example.com,2024-05-12,,completed,eu 
+1134,Customer 133,cust133@example.com,2024-05-13,405.65,cancelled,US
+1135,Customer 134,cust134@example.com,2024-05-14,449.08,pending,eu 
+1136,Customer 135,cust135@example.com,2024-05-15,165.82,Completed,EU
+1137,,cust136@example.com,2024-05-16,63.93,completed,APAC
+1138,Customer 137,cust137@example.com,2024-05-17,121.69,pending,eu 
+1139,Customer 138,cust138@example.com,2024-05-18,219.28,cancelled,APAC
+1140,Customer 139,cust139@example.com,2024-05-19,410.83,pending,US
+1141,Customer 140,cust140@example.com,2024-05-20,431.76,completed,APAC
+1142,Customer 141,cust141@example.com,2024-05-21,13.41,,APAC
+1143,Customer 142,cust142@example.com,2024-05-22,260.27,,us
+1144,Customer 143,CUST143@EXAMPLE.COM ,2024-05-23,,pending,us
+1145,Customer 144,cust144@example.com,2024-05-24,214.53,PENDING,us
+1146,Customer 145,cust145@example.com,2024-05-25,118.83,pending,APAC
+1147,Customer 146,cust146@example.com,2024-05-26,68.73,Completed,EU
+1148,Customer 147,cust147@example.com,2024-05-27,175.43,Completed,APAC
+1149,Customer 148,cust148@example.com,2024-05-28,472.03,,EU
+1150,Customer 149,cust149@example.com,2024-05-29,168.37,PENDING,EU
+1151,Customer 150,cust150@example.com,2024-05-30,264.21,completed,us
+1152,Customer 151,cust151@example.com,2024-05-31,354.48,Completed,eu 
+1153,Customer 152,cust152@example.com,2024-06-01,188.18,,US
+1154,,cust153@example.com,2024-06-02,486.17,cancelled,us
+1155,Customer 154,cust154@example.com,2024-06-03,,,us
+1156,Customer 155,cust155@example.com,2024-06-04,481.6,Completed,eu 
+1157,Customer 156,CUST156@EXAMPLE.COM ,2024-06-05,133.37,Completed,US
+1158,Customer 157,cust157@example.com,2024-06-06,253.65,,APAC
+1159,Customer 158,cust158@example.com,2024-06-07,157.43,completed,APAC
+1160,Customer 159,cust159@example.com,2024-06-08,149.57,pending,us
+1161,Customer 160,cust160@example.com,2024-06-09,28.07,Completed,US
+1162,Customer 161,cust161@example.com,2024-06-10,308.69,,us
+1163,Customer 162,cust162@example.com,2024-06-11,256.31,,EU
+1164,Customer 163,cust163@example.com,2024-06-12,35.22,PENDING,us
+1165,Customer 164,cust164@example.com,2024-06-13,146.54,pending,us
+1166,Customer 165,cust165@example.com,2024-06-14,,cancelled,APAC
+1167,Customer 166,cust166@example.com,2024-06-15,455.05,completed,APAC
+1168,Customer 167,cust167@example.com,2024-06-16,127.39,cancelled,APAC
+1169,Customer 168,cust168@example.com,2024-06-17,81.0,pending,EU
+1170,Customer 169,CUST169@EXAMPLE.COM ,2024-06-18,249.83,pending,APAC
+1171,,cust170@example.com,2024-06-19,492.97,pending,US
+1172,Customer 171,cust171@example.com,2024-06-20,128.61,cancelled,eu 
+1173,Customer 172,cust172@example.com,2024-06-21,339.35,pending,US
+1174,Customer 173,cust173@example.com,2024-06-22,383.19,,US
+1175,Customer 174,cust174@example.com,2024-06-23,126.44,cancelled,APAC
+1176,Customer 175,cust175@example.com,2024-06-24,366.83,pending,eu 
+1177,Customer 176,cust176@example.com,2024-06-25,,,eu 
+1178,Customer 177,cust177@example.com,2024-06-26,190.21,PENDING,eu 
+1179,Customer 178,cust178@example.com,2024-06-27,319.83,pending,EU
+1180,Customer 179,cust179@example.com,2024-06-28,320.43,cancelled,APAC
+1181,Customer 180,cust180@example.com,2024-06-29,272.53,Completed,eu 
+1182,Customer 181,cust181@example.com,2024-06-30,54.24,pending,EU
+1183,Customer 182,CUST182@EXAMPLE.COM ,2024-07-01,419.3,Completed,us
+1184,Customer 183,cust183@example.com,2024-07-02,167.18,,us
+1185,Customer 184,cust184@example.com,2024-07-03,101.39,PENDING,EU
+1186,Customer 185,cust185@example.com,2024-07-04,29.98,completed,EU
+1187,Customer 186,cust186@example.com,2024-07-05,299.54,PENDING,APAC
+1188,,cust187@example.com,2024-07-06,,pending,APAC
+1189,Customer 188,cust188@example.com,2024-07-07,342.01,Completed,us
+1190,Customer 189,cust189@example.com,2024-07-08,18.13,Completed,eu 
+1191,Customer 190,cust190@example.com,2024-07-09,260.93,cancelled,us
+1192,Customer 191,cust191@example.com,2024-07-10,120.98,Completed,eu 
+1193,Customer 192,cust192@example.com,2024-07-11,326.13,cancelled,eu 
+1194,Customer 193,cust193@example.com,2024-07-12,95.44,,APAC
+1195,Customer 194,cust194@example.com,2024-07-13,348.56,completed,US
+1196,Customer 195,CUST195@EXAMPLE.COM ,2024-07-14,199.5,pending,US
+1197,Customer 196,cust196@example.com,2024-07-15,469.0,cancelled,EU
+1198,Customer 197,cust197@example.com,2024-07-16,77.39,completed,APAC
+1199,Customer 198,cust198@example.com,2024-07-17,,Completed,eu 
+1200,Customer 199,cust199@example.com,2024-07-18,177.12,Completed,US
+1059,Customer 58,cust58@example.com,2024-02-28,470.35,PENDING,EU
+1041,Customer 40,cust40@example.com,2024-02-10,159.26,,APAC
+1035,,cust34@example.com,2024-02-04,307.7,,us
+1103,,cust102@example.com,2024-04-12,382.78,completed,US
+1185,Customer 184,cust184@example.com,2024-07-03,101.39,PENDING,EU
