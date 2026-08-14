@@ -67,8 +67,36 @@ python3 validate.py          # runs data quality checks, exits non-zero on failu
 - `status` and `region` values are fully standardized
 - All emails are well-formed
 
+## Part 2: Loading into a database (SQL)
+
+`load_to_db.py` loads `clean_orders.csv` into a SQLite database using
+an **UPSERT** pattern (`INSERT ... ON CONFLICT DO UPDATE`) rather than
+a naive full reload. This is what a real incremental pipeline needs:
+
+- Running the load repeatedly on unchanged data does **not** create duplicates
+- If a source row changes (e.g. an order's amount is corrected), re-running
+  the load updates that row in place instead of duplicating it
+
+This was verified directly: loading twice with unchanged data kept the
+row count identical, and changing one row's value and reloading updated
+it in place with the total row count unaffected.
+
+`queries.sql` contains example analytical queries against the loaded
+table (revenue by region, order counts by status, monthly volume, a
+running-total window function example) — the kind of reporting a
+client typically asks for once data is loaded.
+
+### How to run Part 2
+
+```bash
+python3 load_to_db.py   # loads clean_orders.csv into orders.db (SQLite)
+# then run queries.sql against orders.db using any SQLite client,
+# or Python's built-in sqlite3 module
+```
+
 ## Tech
 
-Python, pandas. No external database required for this version — a
-SQL/database-loading version (with upsert/MERGE logic) is a natural
-next step.
+Python, pandas, SQLite (upsert/MERGE-style loading). The SQL used here
+(`ON CONFLICT ... DO UPDATE`) is close to standard ANSI SQL and maps
+directly to Postgres; SQL Server and MySQL use equivalent `MERGE` /
+`ON DUPLICATE KEY UPDATE` syntax for the same pattern.
